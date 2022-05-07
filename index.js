@@ -48,11 +48,70 @@ const questions = [{
         type: 'input',
         message: 'What does the user need to know about contributing to this repository?',
         name: 'contribute',
+    },
+    {
+        type: 'input',
+        message: 'How does the user install this project?',
+        name: 'install',
     }
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
+`# ${projectname} 
+
+## Table Of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Testing](#testing)
+* [Credits](#credits)
+* [License](#license)
+* [Contributions](#contributions)
+* [Questions](#questionscontact)
+
+
+## Video Walkthrough
+
+## Description
+${description}.
+
+
+## Installation
+To install the dependencies required for this repository, please run the following command:
+  `
+``
+bash
+$ { install }
+``
+`
+
+## Usage
+${userepos}.
+
+## Testing
+To run tests on this repository, please use the following command:
+  `
+``
+bash
+$ { tests }
+``
+`
+
+## Credits
+${credits}
+
+
+## License
+This repository is licenced under ${license}.
+
+## Contributions
+To contribute to this project, please ${contribute}.
+
+
+## Questions/Contact
+For questions and comments related to this repository, please email me at: ${email}. Alternatively, view my other projects at ${gitname}.
+`
 
 // TODO: Create a function to initialize app
 function init() {}
