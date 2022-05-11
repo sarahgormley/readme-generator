@@ -3,6 +3,7 @@ const fs = require('fs');
 
 const generateReadMe = ({ gitname, email, projectname, description, license, credits, tests, userepos, contribute, install }) =>
     `
+# ${projectname}
 
 ![GitHub](https://img.shields.io/badge/license-${license}-yellow.svg)
 
