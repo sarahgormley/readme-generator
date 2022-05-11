@@ -13,24 +13,35 @@
 * [Contributions](#contributions)
 * [Questions](#questionscontact)
 
+## Video Walkthrough
+[Video Walkthrough of the ReadMe Generator in action](https://drive.google.com/file/d/1XhS5wgejQOmIfBzvQ4GVqjaY0XXdX2hD/view?usp=sharing)
+
 
 
 ## Description
-This ReadMe Generator takes a user's input from the command line and generates a professional ReadMe..
+This ReadMe generator takes a user's input from the command line and creates a professional ReadMe. 
 
 
 ## Installation
 To install the dependencies required for this repository, please run the following command:
-
+```
 npm install inquirer
-
+```
 
 ## Usage
 Make sure you download all the required packages (Inquirer).
+Open the file in VS code and open the Terminal. 
+From there, run the command 
+```
+node index.js
+```
+Answer the questions and follow the prompts that appear in the terminal. Once all the questions are answered, a ReadMe file will be generated with a professionally formatted ReadMe, with the user's input added.
 
 ## Testing
 To run tests on this repository, please use the following command:
+```
 npm test
+```
 
 
 ## Credits
