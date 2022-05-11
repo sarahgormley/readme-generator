@@ -2,8 +2,11 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 const generateReadMe = ({ gitname, email, projectname, description, license, credits, tests, userepos, contribute, install }) =>
-    `# ${projectname} 
-    ## Table Of Contents
+    `
+
+![GitHub](https://img.shields.io/badge/license-${license}-yellow.svg)
+
+## Table Of Contents
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -14,7 +17,6 @@ const generateReadMe = ({ gitname, email, projectname, description, license, cre
 * [Questions](#questionscontact)
 
 
-## Video Walkthrough
 
 ## Description
 ${description}.
@@ -31,8 +33,6 @@ ${userepos}.
 
 ## Testing
 To run tests on this repository, please use the following command:
-
-bash
 ${tests}
 
 
@@ -48,7 +48,7 @@ To contribute to this project, please ${contribute}.
 
 
 ## Questions/Contact
-For questions and comments related to this repository, please email me at: ${email}. Alternatively, view my other projects at ${gitname}.
+For questions and comments related to this repository, please email me at: ${email}. Alternatively, view my other projects at [${gitname}](https://github.com/${gitname}).
 `
 
 
