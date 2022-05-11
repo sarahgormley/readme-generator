@@ -20,6 +20,8 @@
 
 ## Description
 This ReadMe generator takes a user's input from the command line and creates a professional ReadMe. 
+Using the Inquirer package, a number of questions are displayed in the terminal, relating to the user's ReadMe. 
+When the user answers the questions, the responses are then used to create a ReadMe. 
 
 
 ## Installation
